@@ -34,5 +34,19 @@ Visit http://smartfridge.ml/ to watch some videos about the project.
   It can also send images of the internal of the fridge obtaining them from Image Web Service and sending to user on telegram exploting **ColdImage_bot**
   2) **RefrigeratorAllarm_bot** is used by Temperature_Control to allarm the user about the temperature.
 
+- SCRIPTS THAT MUST BE STARTED
+  - **Web Service Catalog**: **WSCatalog.py** AND **delete_client.py**	OR    Run_WebServiceCatalog.sh
+  - **Raspberry Web Service**: **RaspberryWebService.py**	OR	Run_RaspberryWebService.sh
+  - **Raspberry Publisher**: **RaspberryPublisher.py** OR Run_Sensors.sh
+  - **Image Client**: **ImageClient.py**	OR Run_Sensors.sh
+  - **Humidity Control**: **Humidity_Control.py** OR Run_Humidity.sh
+  - **Motion Control**: **Motion_Control.py** OR Run_Motion.sh
+  - **Temperature Control**: **Temperature_Control.py** OR Run_Temperature.sh
+  - **Weight&Barcode Control**: **WeightsBarcode_Control.py** OR Run_WeightsBarcode.sh
+  - **Image Web Service**: **ImageWebService.py** OR Run_ImageWS.sh
+  - **ThingSpeak Adaptor**: **ThingSpeakAdaptor.py** OR Run_ThingSpeakAdaptor.sh
+  - **Products Adaptor**: **ProductsAdaptor.py** OR Run_ProductsAdaptor.sh
+  - **Products Web Service** AND **Barcode2Product Web Service**: **ProductWS.py** OR Run_ProductWS.sh
+  - **Bots**: **SmartRefrigerator_bot.py** or Run_BOT.sh
 
---
+
