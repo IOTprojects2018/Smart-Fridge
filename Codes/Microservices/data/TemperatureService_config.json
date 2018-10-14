@@ -1,0 +1,14 @@
+{
+	"name": "TemperatureService",
+	"resource": "temperature",
+	"QoS": 2,
+	"endpoints": "/MicroServices/temperature/TempertureService/+/temperature/+",
+	"TOKEN":"612666346:AAHEQvDZaVmWP_PFsUIsTmnR0y-Br8lKqVo",
+	"WSCatalog": {
+		"url": "http://192.168.1.107:8080",
+		"credentials": {
+			"user": "root",
+			"password": "root"
+		}
+	}
+}

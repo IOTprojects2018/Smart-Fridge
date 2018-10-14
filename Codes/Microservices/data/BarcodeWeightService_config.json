@@ -1,0 +1,16 @@
+{
+	"name1": "BarcodeService",
+	"resource1": "barcode",
+	"QoS": 2,
+	"endpoints1": "/MicroServices/barcode/BarcodeService/+/barcode/+",
+	"name2": "WeightService",
+	"resource2": "weight",
+	"endpoints2": "/MicroServices/weight/WeightService/+/weight/+",
+	"WSCatalog": {
+		"url": "http://192.168.1.107:8080",
+		"credentials": {
+			"user": "root",
+			"password": "root"
+		}
+	}
+}

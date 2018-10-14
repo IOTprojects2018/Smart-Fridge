@@ -1,0 +1,12 @@
+{
+	"Name": "WebServiceCatalog",
+	"administrator": {
+		"user": "root",
+		"password": "root"
+	},
+	"CatalogPath": "CATALOG.json",
+	"refresh": {
+		"age": 120,
+		"dt": 20
+	}
+}

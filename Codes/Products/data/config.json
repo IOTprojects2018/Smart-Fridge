@@ -1,0 +1,26 @@
+{
+	"ProductsWS": {
+		"name": "ProductsWS",
+		"resource": "products",
+		"database":"products.json",
+		"WSCatalog": {
+			"url": "http://192.168.1.107:8080",
+			"credentials": {
+				"user": "root",
+				"password": "root"
+			}
+		}
+	},
+	"Barcode2ProductWS": {
+		"name": "Barcode2ProductWS",
+		"resource": "barcode2product",
+		"database":"barcodes.json",
+		"WSCatalog": {
+			"url": "http://192.168.1.107:8080",
+			"credentials": {
+				"user": "root",
+				"password": "root"
+			}
+		}
+	}
+}

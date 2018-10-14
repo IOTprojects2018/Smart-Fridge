@@ -1,0 +1,13 @@
+{
+	"name": "MotionService",
+	"resource": "motion",
+	"QoS": 2,
+	"endpoints": "/MicroServices/motion/MotionService/+/motion/+",
+	"WSCatalog": {
+		"url": "http://192.168.1.107:8080",
+		"credentials": {
+			"user": "root",
+			"password": "root"
+		}
+	}
+}

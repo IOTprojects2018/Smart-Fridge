@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+<title>Smart Refrigerator - ThingSpeak</title>
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    background-image: url("img/bg.png");
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+</style>
+</head>
+
+
+<body>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 style="text-align: center;">Smart Refrigerator - ThingSpeak</h1>
+
+
+<p style="text-align: center;"><input type="button" onclick="document.location.href='/';" value="Homepage"><br></p>
+<br>
+<br>
+<form action="post_thingspeak" method="POST">
+
+
+
+<p style="text-align: center;">ChannelID:<br>
+<input type="password" name="channelID">
+<br>
+Write key:<br>
+<input type="password" name="wkey">
+<br/>
+Read key:<br>
+<input type="password" name="rkey">
+<br/>
+<input type="submit" value="Submit"></p>
+</form>
+</body>
+</html>

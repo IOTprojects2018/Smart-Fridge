@@ -1,0 +1,20 @@
+{
+	"Barcode2ProductWS": {
+		"microserviceID": "Barcode2ProductWS"
+	},
+	"QoS": 2,
+	"name": "ProductsAdaptor",
+	"ProductsWS": {
+		"microserviceID": "ProductsWS"
+	},
+	"WebServiceCatalog": {
+		"credentials": {
+			"password": "root",
+			"user": "root"
+		},
+		"endpoints": "http://192.168.1.107:8080"
+	},
+	"topics_update_interval": 30,
+	"key4ProductsWS": "",
+	"categories": ["barcode"]
+}

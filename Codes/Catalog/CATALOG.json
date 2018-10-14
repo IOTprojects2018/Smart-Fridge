@@ -1,0 +1,15 @@
+{
+	"microservices": {
+	},
+	"number_of_devices": 0,
+	"users_list": {
+	},
+	"devices": {
+	},
+	"number_of_users": 0,
+	"msgbroker": {
+		"IP": "iot.eclipse.org",
+		"PORT": 1883
+	},
+	"last_edit": 0
+}

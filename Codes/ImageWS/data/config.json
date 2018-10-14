@@ -1,0 +1,14 @@
+{
+	"ImageWS": {
+		"name": "ImageWS",
+		"resource": "image",
+		"database":"database.json",
+		"WSCatalog": {
+			"url": "http://192.168.1.107:8080",
+			"credentials": {
+				"user": "root",
+				"password": "root"
+			}
+		}
+	}
+}

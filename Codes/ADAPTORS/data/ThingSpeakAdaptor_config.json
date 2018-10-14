@@ -1,0 +1,22 @@
+{
+	"name": "ThingSpeakAdaptor",
+	"QoS": 2,
+	"topics_update_interval": 30,
+	"categories": ["temperature", "humidity", "motion", "weight"],
+	"vocabulary": {
+		"temperature": "field1",
+		"humidity": "field2",
+		"motion": "field3",
+		"weight": "field4"
+	},
+	"WebServiceCatalog": {
+		"endpoints": "http://192.168.1.107:8080",
+		"credentials": {
+			"user": "root",
+			"password": "root"
+		}
+	},
+	"ThingSpeak": {
+		"url": "https://api.thingspeak.com/update?"
+	}
+}
